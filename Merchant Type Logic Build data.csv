@@ -1,0 +1,22 @@
+ID,Question,Type,Yes,No
+1,Does the entity sell goods or services to the cardholder in it's own name?,Q,2,17
+2,"Is the entity responsible for order fulfilment, customer service, and liable for disputes/chargebacks?",Q,3,17
+3,Does the entity contract directly with the acquirer and receive settlement?,Q,11,4
+4,"Does the entity receive funds only momentarily (flash title), then pass them on to another seller?",Q,17,18
+5,"Does the entity onboard, serve, or aggregate other sellers under it's own acquiring relationship (e.g. sub-merchants)?",Q,6,9
+6,Does the entity receive settlement funds and redistribute to sub merchants,Q,7,20
+7,Are the sub-merchants branded under their own names and contract with this entity (not directly with the acquirer)?,Q,13,8
+8,Does the platform bring multiple sellers under its brand and process transactions on their behalf?,Q,10,12
+9,Is the entity providing technical infrastructure but no payment involvement?,Q,19,16
+10,"Does the entity operate a branded ecommerce site/app, receive settlement, and resolve disputes between sellers?",Q,14,21
+11,Onboard as merchant / merchant of record,E,,
+12,Confirm with Legal/Compliance,A,,
+13,Onboard as Payment Facilitator,E,,
+14,Onboard as Marketplace,E,,
+15,Not onboarded under merchant models,A,,
+16,More info needed - escalate,A,,
+17,Potential PF or Marketplace,C,5,
+18,Still likely a merchant if other criteria met,C,12,
+19,Likely introducer / ISO / Tech provider,C,15,
+20,Possible ISO or Introducer Model (not PF),C,12,
+21,May be PF or Hybrid,C,12,
