@@ -81,10 +81,10 @@ if row['Type'] == 'Q':
 if row["Type"] in ["E", "A"]:
 
     if row['Type'] == 'E':
-        st.success(f"🎯 **Final Action:** {row['Question']}")
+        st.success(f"🎯 **Merchant Type:** {row['Question']}")
     
     if row['Type'] == 'A':
-        st.warning(f"🎯 **Final Action:** {row['Question']}")
+        st.warning(f"🎯 **Action Required:** {row['Question']}")
         
     col1, col2, col3, col4 = st.columns(4)
     with col3:

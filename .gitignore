@@ -1,0 +1,35 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.env
+.venv
+env/
+venv/
+
+# VS Code settings
+.vscode/
+
+# Python-specific
+*.egg-info/
+dist/
+build/
+
+# Jupyter Notebooks checkpoints
+.ipynb_checkpoints/
+
+# Test and coverage files
+coverage/
+*.cover
+*.log
+
+# Secrets (if any)
+*.env
+.env.*
+
+*.xlsx
+*.xlsm
+*.url
+*.docx
